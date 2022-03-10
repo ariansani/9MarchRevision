@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="GET" action ="/weather">
+        <input type="text" name="city">
+        <select name="units">
+            <option value="imperial">Imperial</option>
+            <option value="metrics">metrics</option>
+        </select>
+        <button type="submit">Search</button>
+        
+    </form>
+    <form method="POST" action="/register">
+        <input type="text" name="name">
+        <input type="email" name="email">
+        <button type="submit">Register</button>
+
+    </form>
+
+</body>
+</html>
